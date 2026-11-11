@@ -36,10 +36,10 @@
 <section id="projektai" class="section projects">
 <div class="head"><div><div class="kicker">02 / ATRINKTI PROJEKTAI</div><h2>Mūsų darbai</h2></div><a class="link" href="#projektai">Visi projektai ↗</a></div>
 <div class="grid">
-<article class="project big"><div class="photo p1"></div><div class="meta"><div><h3>Quiet Luxury</h3><p>Privatus interjeras · Kaunas</p></div><span>01</span></div></article>
-<article class="project"><div class="photo p2"></div><div class="meta"><div><h3>Warm Minimalism</h3><p>Privatus interjeras · Vilnius</p></div><span>02</span></div></article>
-<article class="project"><div class="photo p3"></div><div class="meta"><div><h3>Soft Geometry</h3><p>Butas · Kaunas</p></div><span>03</span></div></article>
-<article class="project wide"><div class="photo p4"></div><div class="meta"><div><h3>Natural Contrast</h3><p>Privatus interjeras · Palanga</p></div><span>04</span></div></article>
+<article class="project big" tabindex="0" data-project="quiet"><div class="photo p1"></div><div class="meta"><div><h3>Quiet Luxury</h3><p>Privatus interjeras · Kaunas</p></div><span>01</span></div></article>
+<article class="project" tabindex="0" data-project="warm"><div class="photo p2"></div><div class="meta"><div><h3>Warm Minimalism</h3><p>Privatus interjeras · Vilnius</p></div><span>02</span></div></article>
+<article class="project" tabindex="0" data-project="soft"><div class="photo p3"></div><div class="meta"><div><h3>Soft Geometry</h3><p>Butas · Kaunas</p></div><span>03</span></div></article>
+<article class="project wide" tabindex="0" data-project="natural"><div class="photo p4"></div><div class="meta"><div><h3>Natural Contrast</h3><p>Privatus interjeras · Palanga</p></div><span>04</span></div></article>
 </div>
 </section>
 
@@ -65,6 +65,26 @@
 <a class="button dark-btn" href="mailto:flamingo.interjeras@gmail.com">Aptarti projektą ↗</a>
 <div class="details"><a href="tel:+37067974650">+370 679 74650</a><a href="mailto:flamingo.interjeras@gmail.com">flamingo.interjeras@gmail.com</a><span>Kaunas, Lithuania</span></div></div></div></section>
 </main>
+<div class="modal" id="projectModal" aria-hidden="true">
+  <div class="modal-backdrop" data-close="true"></div>
+  <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" type="button" aria-label="Uždaryti" data-close="true">×</button>
+    <div class="modal-image" id="modalImage"></div>
+    <div class="modal-body">
+      <div class="modal-top"><div><p class="modal-kicker" id="modalMeta"></p><h2 id="modalTitle"></h2></div><span id="modalNumber"></span></div>
+      <div class="modal-grid">
+        <div><p class="modal-lead" id="modalLead"></p></div>
+        <div class="case-details">
+          <div><span>PROJEKTAS</span><b id="modalProject"></b></div>
+          <div><span>LOKACIJA</span><b id="modalLocation"></b></div>
+          <div><span>APIMTIS</span><b id="modalScope"></b></div>
+        </div>
+      </div>
+      <div class="case-copy"><h3>Sprendimas</h3><p id="modalDescription"></p></div>
+      <div class="case-result"><span>CASE STUDY</span><p id="modalResult"></p></div>
+    </div>
+  </div>
+</div>
 
 <footer><div class="logo">FLAMINGO<span>INTERJERAS</span></div><p>Redesign concept · Tadari Studio · 2026</p><a href="#top">↑ Į viršų</a></footer>
 <script src="script.js"></script>

@@ -1,10 +1,12 @@
-# Flamingo Interjeras — redesign concept
+# Flamingo Interjeras — Redesign Concept
 
-Unofficial visual redesign concept by Tadari Studio.
+Unofficial redesign concept prepared by Tadari Studio.
 
-This version uses stock interior photography as temporary placeholders. Before sending to the client, replace the image URLs with Flamingo Interjeras project photography that they approve.
+## Run locally
+Open `index.html` with Live Server in VS Code.
 
 ## GitHub Pages
-Upload `index.html`, `style.css` and `script.js` to a new repository, then enable Settings → Pages → Deploy from branch → main / root.
+Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
 
-The concept is based on the current public Flamingo Interjeras structure: projects, services, team and contact CTA.
+## Notes
+The project includes an interactive case-study modal for each portfolio item. Project content and imagery in this demo are concept material and should be replaced/approved before production use.
