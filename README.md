@@ -1,12 +1,14 @@
 # Flamingo Interjeras — Redesign Concept
 
-Unofficial redesign concept prepared by Tadari Studio.
-
-## Run locally
-Open `index.html` with Live Server in VS Code.
+Unofficial redesign concept by Tadari Studio.
 
 ## GitHub Pages
-Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
+The repository root must contain:
+- index.html
+- style.css
+- script.js
 
-## Notes
-The project includes an interactive case-study modal for each portfolio item. Project content and imagery in this demo are concept material and should be replaced/approved before production use.
+Then enable GitHub Pages from Settings → Pages → Deploy from a branch → main → / (root).
+
+## Note
+This is a concept/demo, not the official Flamingo Interjeras website.
